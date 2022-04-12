@@ -1,0 +1,17 @@
+.sidebar {
+	height: 100vh !important;
+	width: '270px';	
+	display: 'flex';
+	flex: '1 auto'
+	
+}
+.badge.blue {
+	color: #fff;
+	background: #131176;
+	size: 15px;
+	padding: 2px;
+	padding-left: 3px;
+	padding-right: 3px;
+	border-radius: 4px;
+	font-size: 13px;
+}

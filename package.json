@@ -1,0 +1,66 @@
+{
+  "name": "react-next-landing",
+  "description": "Modern Multipurpose Landing Pages Template Using React, Next, Styled Components and so on. It also support Gatsby Static site generator ",
+  "version": "6.0.0",
+  "private": true,
+  "author": "RedQ, Inc",
+  "devDependencies": {
+    "@babel/cli": "^7.10.3",
+    "cpx": "^1.5.0",
+    "cross-env": "^7.0.2",
+    "env-cmd": "^10.1.0",
+    "firebase-tools": "8.4.3",
+    "husky": "^4.2.5",
+    "lerna": "^3.22.1",
+    "lint-staged": "^10.2.11",
+    "polished": "^3.4.4",
+    "prettier": "^2.0.5",
+    "rimraf": "^3.0.2"
+  },
+  "workspaces": [
+    "packages/common",
+    "packages/landing",
+    "packages/landing-gatsby"
+  ],
+  "scripts": {
+    "clean": "lerna clean --yes && rimraf node_modules",
+    "start": "lerna run --parallel dev",
+    "preweb": "cpx \"packages/common/src/assets/image/**/*.*\" \"packages/landing/static\" -C",
+    "next-dev": "yarn workspace next-landing run dev",
+    "next-build": "rimraf dist && yarn workspace next-landing run build",
+    "next-start": "yarn workspace next-landing run start",
+    "next-export": "yarn workspace next-landing run export",
+    "gatsby-dev": "yarn workspace gatsby-landing run dev",
+    "gatsby-build": "yarn workspace gatsby-landing run build",
+    "gatsby-serve": "yarn workspace gatsby-landing run serve",
+    "prebuild-public": "rimraf \"dist/functions/**\" && rimraf \"dist/public\"",
+    "prefirebase-serve": "yarn run build-public && yarn run build-funcs && yarn workspace next-landing run build && yarn run copy-deps && yarn run install-deps",
+    "firebase-serve": "cross-env NODE_ENV=production firebase serve",
+    "prefirebase-deploy": "yarn run build-public && yarn run build-funcs && yarn workspace next-landing run build && yarn run copy-deps",
+    "firebase-deploy": "cross-env NODE_ENV=production firebase deploy",
+    "build-public": "cpx \"packages/common/src/assets/**/*.*\" \"dist/public/static\" -C && cpx \"public/**/*.*\" \"dist/public\" -C && cpx \"packages/landing/public/**/*.*\" \"dist/public\" -C",
+    "build-funcs": "babel \"packages/functions\" --out-dir \"dist/functions\"",
+    "copy-deps": "cpx \"packages/landing/*{package.json,package-lock.json,yarn.lock}\" \"dist/functions\" -C",
+    "install-deps": "cd \"dist/functions\" && yarn",
+    "pregatsby-firebase-serve": "rimraf dist && yarn run gatsby-build && cpx \"packages/landing-gatsby/public/**/*.*\" \"dist/public\" -C",
+    "gatsby-firebase-serve": "cross-env NODE_ENV=production firebase serve",
+    "pregatsby-firebase-deploy": "rimraf dist && yarn run gatsby-build && cpx \"packages/landing-gatsby/public/**/*.*\" \"dist/public\" -C",
+    "gatsby-firebase-deploy": "firebase deploy",
+    "netlify-deploy": "yarn workspace next-landing run netlify-build"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,md,css}": [
+      "prettier --trailing-comma es5 --single-quote --write"
+    ]
+  },
+  "dependencies": {
+    "gatsby-cli": "^2.12.107",
+    "react-router-dom": "^5.2.0",
+    "react-select": "^3.1.0"
+  }
+}

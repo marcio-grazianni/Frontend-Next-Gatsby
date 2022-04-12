@@ -1,0 +1,270 @@
+{
+  "MENU_ITEMS": [
+    {
+      "label": "Home",
+      "path": "#banner_section",
+      "offset": "0"
+    },
+    {
+      "label": "Our products",
+      "path": "#pricing",
+      "offset": "0"
+    },
+    {
+      "label": "Who we are",
+      "path": "/aboutUs/",
+      "offset": "-10"
+    },
+	{
+		"label": "Learning Center",
+		"path": "/aboutUs/",
+		"offset": "-10"
+	}
+  ],
+  "TESTIMONIALS": [
+    {
+	  "reviewTitle": "My entire experience with Harris was...",
+      "review": "my entire experience with Harris was so seamless.  I found a great monthly payment, and the process was really easy",
+      "name": "Jeremy Roberts",
+      "designation": "Homeowner, realtor",
+      "avatar": "../../assets/image/crypto/profile-7.jpeg"
+    },
+    {
+	  "reviewTitle": "Super easy, was the best.",
+	  "review": "I was approved the same day and had the signings done within two days.  I didn't know that was possible.",
+      "name": "John Haverson",
+      "designation": "Homeowner, professor",
+      "avatar": "../../assets/image/crypto/profile-2.jpg"
+    },
+    {
+	  "reviewTitle": "The whole process was easy and...",
+	  "review": "I was building up credit card debt, and this helped me pay it off at less than half the rate",
+      "name": "Sara Mitchell",
+      "designation": "Homeowner, nurse",
+      "avatar": "../../assets/image/crypto/profile-woman-3.jpeg"
+    },
+    {
+	  "reviewTitle": "HIGHLY RECOMMEND THIS COMPANY! GREAT PEOPLE",
+	  "review": "Very easy process.  Really nice people",
+      "name": "Sean Anderson",
+      "designation": "Homeowner, financial advisor",
+      "avatar": "../../assets/image/crypto/profile-4.jpg"
+    },
+	{
+		"reviewTitle": "Simplified my finances in less than a week...",
+		"review": "I needed money for some home improvements.  I thought it would take weeks.  It took days.  I'm thoroughly impressed",
+		"name": "Kevin Holg",
+		"designation": "Homeowner, realtor",
+		"avatar": "../../assets/image/crypto/profile-5.jpeg"
+	},
+	{
+		"reviewTitle": "Harris lending really took care of me...",
+		"review": "I was approved the same day and had the signings done within two days.  I didn't know that was possible.",
+		"name": "Drew Baker",
+		"designation": "Homeowner, professor",
+		"avatar": "../../assets/image/crypto/profile-6.jpeg"
+	}
+  ],
+  "TRANSACTIONS_FEATURE": [
+    {
+      "image": "../../assets/image/crypto/tf1.svg",
+      "title": "Application",
+      "des": "Fill out our simple application"
+    },
+    {
+      "image": "../../assets/image/crypto/tf2.svg",
+      "title": "Approval",
+      "des": "Get approved in seconds"
+    },
+    {
+      "image": "../../assets/image/crypto/tf3.svg",
+      "title": "Sign",
+      "des": "Sign documents with our online notary system.  All through your computer or phone."
+    },
+    {
+      "image": "../../assets/image/crypto/tf4.svg",
+      "title": "Funding",
+      "des": "Get your money in as little as five days."
+    }
+  ],
+  "PROOFS_FEATURE": [
+    {
+      "image": "../../assets/image/crypto/proof1.svg",
+      "title": "Instant trading",
+      "des": "Never miss a price swing."
+    },
+    {
+      "image": "../../assets/image/crypto/proof2.svg",
+      "title": "No hidden fees",
+      "des": "know our fees upfront."
+    },
+    {
+      "image": "../../assets/image/crypto/proof3.svg",
+      "title": "Secure storage",
+      "des": "Sleep with peace of mind."
+    },
+    {
+      "image": "../../assets/image/crypto/proof4.svg",
+      "title": "Systematic trading",
+      "des": "History intraday market."
+    },
+    {
+      "image": "../../assets/image/crypto/proof5.svg",
+      "title": "Network Effect",
+      "des": "Casinos contribute 1%."
+    },
+    {
+      "image": "../../assets/image/crypto/proof6.svg",
+      "title": "Bigger Rewards",
+      "des": "Players are incentivized."
+    }
+  ],
+  "SCALABLE_FEATURE": [
+    {
+      "image": "../../assets/image/crypto/jackpot.svg",
+      "title": "Daily Jackpot",
+      "des": "35000 CLV"
+    },
+    {
+      "image": "../../assets/image/crypto/jackpot.svg",
+      "title": "Weekly Jackpot",
+      "des": "250000 CLV"
+    },
+    {
+      "image": "../../assets/image/crypto/jackpot.svg",
+      "title": "Monthly Jackpot",
+      "des": "4999697 CLV"
+    },
+    {
+      "image": "../../assets/image/crypto/jackpot.svg",
+      "title": "Yearly Jackpot",
+      "des": "300245785000 CLV"
+    }
+  ],
+  "BETA_FEATURE": [
+    {
+      "image": "../../assets/image/crypto/beta-1.svg",
+      "title": "Instant Loan Estimates",
+      "des": "Get your estimate right away."
+    },
+    {
+      "image": "../../assets/image/crypto/proof3.svg",
+      "title": "Revolutionary transparency",
+      "des": "See every step of the process"
+    },
+    {
+      "image": "../../assets/image/crypto/beta-2.svg",
+      "title": "Available 24/7",
+      "des": "Available at all times, day or night"
+    }
+  ],
+  "menuWidget": [
+    {
+      "id": 1,
+      "title": "Contact Us",
+      "menuItems": [
+        {
+          "id": 1,
+          "url": "#",
+          "text": "improveloans@gmail.com"
+        },
+        {
+          "id": 2,
+          "url": "#",
+          "text": "731-676-5855"
+        },
+        {
+          "id": 3,
+          "url": "#",
+          "text": ""
+        },
+        {
+          "id": 4,
+          "url": "#",
+          "text": ""
+        },
+        {
+          "id": 5,
+          "url": "#",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Company",
+      "menuItems": [
+        {
+          "id": 1,
+          "url": "#",
+          "text": "About us"
+        },
+        {
+          "id": 2,
+          "url": "#",
+          "text": ""
+        },
+        {
+          "id": 3,
+          "url": "#",
+          "text": ""
+        },
+        {
+          "id": 4,
+          "url": "#",
+          "text": ""
+        },
+        {
+          "id": 5,
+          "url": "#",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Legal",
+      "menuItems": [
+        {
+          "id": 1,
+          "url": "#",
+          "text": "Privacy Policy"
+        },
+        {
+          "id": 2,
+          "url": "#",
+          "text": "Terms of Use"
+        },
+        {
+          "id": 3,
+          "url": "#",
+          "text": "Disclosures and Licensing"
+        },
+        {
+          "id": 4,
+          "url": "#",
+          "text": ""
+        },
+        {
+          "id": 5,
+          "url": "#",
+          "text": ""
+        }
+      ]
+    }
+  ],
+  "Language_NAMES": [
+    {
+      "label": "English",
+      "value": "eng"
+    },
+    {
+      "label": "Chinese",
+      "value": "chinese"
+    },
+    {
+      "label": "Indian",
+      "value": "indian"
+    }
+  ]
+}

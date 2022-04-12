@@ -1,0 +1,42 @@
+.containerClassBuyProcess ul {
+  list-style: none;
+}
+
+.containerClassBuyProcess li {
+  display: inline-block;
+  margin-right: 15px;
+}
+/* 
+.containerClassBuyProcesss input {
+  visibility: hidden;
+}
+ */
+.containerClassBuyProcess label + span {
+  cursor: pointer;
+  font-size: 28px;
+  font-weight: 'bold';
+  /* visibility: hidden; */
+}
+
+.containerClassBuyProcess label:hover {
+  /* font-weight: bold; */
+  color: gray;
+}
+
+.containerClassBuyProcess input:checked + span {
+  font-weight: bold;
+}
+
+.containerClassBuyProcess input:checked:hover + span {
+  font-weight: bold;
+  color: black;
+}
+
+.containerClassBuyProcess button:disabled {
+  color: gray;
+  background-color: rgb(230, 221, 221);
+}
+
+.homeValue input {
+  visibility: visible;
+}

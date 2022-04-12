@@ -1,0 +1,38 @@
+.containerClassReasons ul {
+  list-style: none;
+}
+
+.containerClassReasons li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.containerClassReasons input {
+  visibility: hidden;
+}
+
+.containerClassReasons label + span {
+  cursor: pointer;
+  font-size: 28px;
+  font-weight: 'bold';
+  visibility: hidden;
+}
+
+.containerClassReasons label:hover {
+  /* font-weight: bold; */
+  color: gray;
+}
+
+.containerClassReasons input:checked + span {
+  font-weight: bold;
+}
+
+.containerClassReasons input:checked:hover + span {
+  font-weight: bold;
+  color: black;
+}
+
+.containerClassReasons button:disabled {
+  color: gray;
+  background-color: rgb(230, 221, 221);
+}
