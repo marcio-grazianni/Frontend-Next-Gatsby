@@ -4,7 +4,7 @@
 yarn
 ```
 
-```
+`````
 // For starting GatsbyJs Server run
 yarn gatsby-dev
 ```
