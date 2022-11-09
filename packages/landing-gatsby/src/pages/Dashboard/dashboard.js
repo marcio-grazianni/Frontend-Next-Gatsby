@@ -21,7 +21,7 @@ const Dashboard = () => {
     <ThemeProvider theme={cryptoTheme}>
       <Provider store={store}>
         <Fragment>
-          <SEO title="Harris | Simple, Online, Fast" />
+          <SEO title="Marcio | Simple, Online, Fast" />
           <ResetCSS />
           <GlobalStyle />
           <ContentWrapper>
